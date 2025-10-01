@@ -1,0 +1,901 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": {
+                "jp": "床図面",
+                "vi": "Bản Vẽ Sàn",
+                "en": "Floor Drawings"
+            },
+            "img": "/img/banner/image.png",
+            "project": [
+                {
+                    "idP": 1,
+                    "nameP": {
+                        "jp": "床プロジェクト 1",
+                        "vi": "Project Sàn 1",
+                        "en": "Floor Project 1"
+                    },
+                    "imgP": "/img/project/san.jpg"
+                },
+                {
+                    "idP": 2,
+                    "nameP": {
+                        "jp": "床プロジェクト 2",
+                        "vi": "Project Sàn 2",
+                        "en": "Floor Project 2"
+                    },
+                    "imgP": "/img/project/san.jpg"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "t1",
+                    "title": {
+                        "jp": "集合住宅用遮音置床システム",
+                        "vi": "Hệ thống sàn nâng cách âm cho căn hộ",
+                        "en": "Soundproof Raised Floor System for Apartments"
+                    },
+                    "subtitle": {
+                        "jp": "ホームベース",
+                        "vi": "Home Base",
+                        "en": "Home Base"
+                    }
+                },
+                {
+                    "id": "t2",
+                    "title": {
+                        "jp": "鋼製床下地材",
+                        "vi": "Vật liệu nền sàn thép",
+                        "en": "Steel Subfloor Material"
+                    },
+                    "subtitle": {
+                        "jp": "スリーベース・メタルベース",
+                        "vi": "Three Base・Metal Base",
+                        "en": "Three Base・Metal Base"
+                    }
+                },
+                {
+                    "id": "t3",
+                    "title": {
+                        "jp": "体育館用関連製品",
+                        "vi": "Sản phẩm liên quan cho nhà thi đấu",
+                        "en": "Gymnasium Related Products"
+                    },
+                    "subtitle": {
+                        "jp": "カベックス・スリーステージ",
+                        "vi": "Kabex・Three Stage",
+                        "en": "Kabex・Three Stage"
+                    }
+                },
+                {
+                    "id": "t4",
+                    "title": {
+                        "jp": "OAフロア用床下地材",
+                        "vi": "Vật liệu nền sàn cho OA Floor",
+                        "en": "Subfloor Material for OA Floor"
+                    },
+                    "subtitle": {
+                        "jp": "マジックフロア・サンアクセス",
+                        "vi": "Magic Floor・Sun Access",
+                        "en": "Magic Floor・Sun Access"
+                    }
+                },
+                {
+                    "id": "t5",
+                    "title": {
+                        "jp": "免震OAフロアシステム",
+                        "vi": "Hệ thống sàn OA chống rung lắc",
+                        "en": "Seismic Isolation OA Floor System"
+                    },
+                    "subtitle": {
+                        "jp": "フロアーウテナSA",
+                        "vi": "Floor Utena SA",
+                        "en": "Floor Utena SA"
+                    }
+                },
+                {
+                    "id": "t6",
+                    "title": {
+                        "jp": "再生＆天然木材製デッキシステム",
+                        "vi": "Hệ thống sàn gỗ tái chế & gỗ tự nhiên",
+                        "en": "Recycled & Natural Wood Deck System"
+                    },
+                    "subtitle": {
+                        "jp": "サニーデッキ",
+                        "vi": "Sunny Deck",
+                        "en": "Sunny Deck"
+                    }
+                },
+                {
+                    "id": "t7",
+                    "title": {
+                        "jp": "文教施設用二重床システム",
+                        "vi": "Hệ thống sàn hai lớp cho cơ sở giáo dục",
+                        "en": "Double Floor System for Educational Facilities"
+                    },
+                    "subtitle": {
+                        "jp": "MPフロア",
+                        "vi": "MP Floor",
+                        "en": "MP Floor"
+                    }
+                }
+            ],
+            "content": {
+                "t1": {
+                    "heading": {
+                        "jp": "ホームベース",
+                        "vi": "Home Base",
+                        "en": "Home Base"
+                    },
+                    "body": {
+                        "jp": "説明/画像/仕様（t1）のプレースホルダー…",
+                        "vi": "Mô tả/ảnh/đặc tả cho nhóm t1...",
+                        "en": "Description/images/specifications for group t1..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t2": {
+                    "heading": {
+                        "jp": "スリーベース・メタルベース",
+                        "vi": "Three Base・Metal Base",
+                        "en": "Three Base・Metal Base"
+                    },
+                    "body": {
+                        "jp": "説明（t2）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t2...",
+                        "en": "Description for group t2..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t3": {
+                    "heading": {
+                        "jp": "カベックス・スリーステージ",
+                        "vi": "Kabex・Three Stage",
+                        "en": "Kabex・Three Stage"
+                    },
+                    "body": {
+                        "jp": "説明（t3）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t3...",
+                        "en": "Description for group t3..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t4": {
+                    "heading": {
+                        "jp": "マジックフロア・サンアクセス",
+                        "vi": "Magic Floor・Sun Access",
+                        "en": "Magic Floor・Sun Access"
+                    },
+                    "body": {
+                        "jp": "説明（t4）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t4...",
+                        "en": "Description for group t4..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t5": {
+                    "heading": {
+                        "jp": "フロアーウテナSA",
+                        "vi": "Floor Utena SA",
+                        "en": "Floor Utena SA"
+                    },
+                    "body": {
+                        "jp": "説明（t5）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t5...",
+                        "en": "Description for group t5..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t6": {
+                    "heading": {
+                        "jp": "サニーデッキ",
+                        "vi": "Sunny Deck",
+                        "en": "Sunny Deck"
+                    },
+                    "body": {
+                        "jp": "説明（t6）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t6...",
+                        "en": "Description for group t6..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t7": {
+                    "heading": {
+                        "jp": "MPフロア",
+                        "vi": "MP Floor",
+                        "en": "MP Floor"
+                    },
+                    "body": {
+                        "jp": "説明（t7）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t7...",
+                        "en": "Description for group t7..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": {
+                "jp": "アルミ図面",
+                "vi": "Bản Vẽ Arumi",
+                "en": "Arumi Drawings"
+            },
+            "img": "/img/service/arumi/arumi.png",
+            "project": [
+                {
+                    "idP": 3,
+                    "nameP": {
+                        "jp": "アルミプロジェクト 1",
+                        "vi": "Project Arumi 1",
+                        "en": "Arumi Project 1"
+                    },
+                    "imgP": "/img/project/arumi.png"
+                },
+                {
+                    "idP": 4,
+                    "nameP": {
+                        "jp": "アルミプロジェクト 2",
+                        "vi": "Project Arumi 2",
+                        "en": "Arumi Project 2"
+                    },
+                    "imgP": "/img/project/arumi.png"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "t1",
+                    "title": {
+                        "jp": "笠木・水切関連製品",
+                        "vi": "Sản phẩm liên quan đến nẹp trang trí và thoát nước",
+                        "en": "Coping & Water Drainage Related Products"
+                    },
+                    "subtitle": {
+                        "jp": "トップライン・トップアート トップイージス・トップホルダー",
+                        "vi": "Top Line・Top Art・Top Aegis・Top Holder",
+                        "en": "Top Line・Top Art・Top Aegis・Top Holder"
+                    }
+                },
+                {
+                    "id": "t2",
+                    "title": {
+                        "jp": "規格手すり",
+                        "vi": "Lan can tiêu chuẩn",
+                        "en": "Standard Handrails"
+                    },
+                    "subtitle": {
+                        "jp": "トップレール",
+                        "vi": "Top Rail",
+                        "en": "Top Rail"
+                    }
+                },
+                {
+                    "id": "t3",
+                    "title": {
+                        "jp": "アルミ外装ルーバー",
+                        "vi": "Lam nhôm ngoại thất",
+                        "en": "Aluminum Exterior Louvers"
+                    },
+                    "subtitle": {
+                        "jp": "スカイマーカー",
+                        "vi": "Sky Marker",
+                        "en": "Sky Marker"
+                    }
+                },
+                {
+                    "id": "t4",
+                    "title": {
+                        "jp": "EXP・JC",
+                        "vi": "EXP・JC",
+                        "en": "EXP・JC"
+                    },
+                    "subtitle": {
+                        "jp": "サンパンション",
+                        "vi": "Sanpansion",
+                        "en": "Sanpansion"
+                    }
+                },
+                {
+                    "id": "t5",
+                    "title": {
+                        "jp": "アルミ建材",
+                        "vi": "Vật liệu xây dựng nhôm",
+                        "en": "Aluminum Building Materials"
+                    },
+                    "subtitle": {
+                        "jp": "スパンドレル・サンアルビ・シートホルダー",
+                        "vi": "Spandrel・Sun Albi・Sheet Holder",
+                        "en": "Spandrel・Sun Albi・Sheet Holder"
+                    }
+                }
+            ],
+            "content": {
+                "t1": {
+                    "heading": {
+                        "jp": "ホームベース",
+                        "vi": "Home Base",
+                        "en": "Home Base"
+                    },
+                    "body": {
+                        "jp": "説明/画像/仕様（t1）のプレースホルダー…",
+                        "vi": "Mô tả/ảnh/đặc tả cho nhóm t1...",
+                        "en": "Description/images/specifications for group t1..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t2": {
+                    "heading": {
+                        "jp": "スリーベース・メタルベース",
+                        "vi": "Three Base・Metal Base",
+                        "en": "Three Base・Metal Base"
+                    },
+                    "body": {
+                        "jp": "説明（t2）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t2...",
+                        "en": "Description for group t2..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t3": {
+                    "heading": {
+                        "jp": "カベックス・スリーステージ",
+                        "vi": "Kabex・Three Stage",
+                        "en": "Kabex・Three Stage"
+                    },
+                    "body": {
+                        "jp": "説明（t3）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t3...",
+                        "en": "Description for group t3..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t4": {
+                    "heading": {
+                        "jp": "マジックフロア・サンアクセス",
+                        "vi": "Magic Floor・Sun Access",
+                        "en": "Magic Floor・Sun Access"
+                    },
+                    "body": {
+                        "jp": "説明（t4）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t4...",
+                        "en": "Description for group t4..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                "t5": {
+                    "heading": {
+                        "jp": "フロアーウテナSA",
+                        "vi": "Floor Utena SA",
+                        "en": "Floor Utena SA"
+                    },
+                    "body": {
+                        "jp": "説明（t5）のプレースホルダー…",
+                        "vi": "Mô tả cho nhóm t5...",
+                        "en": "Description for group t5..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": {
+                "jp": "施工図",
+                "vi": "Bản Vẽ Sekou",
+                "en": "Sekou Drawings"
+            },
+            "img": "/img/service/sekouzu/1_image_1.png",
+            "project": [
+                {
+                    "idP": 3,
+                    "nameP": {
+                        "jp": "施工図 1",
+                        "vi": "Project Sekouzu 1",
+                        "en": "Sekouzu Project 1"
+                    },
+                    "imgP": "/img/project/arumi.png"
+                },
+                {
+                    "idP": 4,
+                    "nameP": {
+                        "jp": "施工図 2",
+                        "vi": "Project Sekouzu 2",
+                        "en": "Sekouzu Project 2"
+                    },
+                    "imgP": "/img/project/arumi.png"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "t1",
+                    "title": {
+                        "jp": "躯体図",
+                        "vi": "Bản vẽ kết cấu",
+                        "en": "Structural Drawing"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "id": "t2",
+                    "title": {
+                        "jp": "平面詳細図",
+                        "vi": "Bản vẽ chi tiết mặt bằng",
+                        "en": "tetailed Floor Plan"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "id": "t3",
+                    "title": {
+                        "jp": "展開図",
+                        "vi": "Bản vẽ triển khai",
+                        "en": "Elevation / Development Drawing"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "id": "t4",
+                    "title": {
+                        "jp": "外部タイル割付図",
+                        "vi": "Bản vẽ bố trí gạch ốp ngoài",
+                        "en": "Exterior Tile Layout Drawing"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "id": "t5",
+                    "title": {
+                        "jp": "内部タイル割付図",
+                        "vi": "Bản vẽ bố trí gạch nội thất",
+                        "en": "Interior Tile Layout Drawing"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "id": "t6",
+                    "title": {
+                        "jp": "天井割付図",
+                        "vi": "Bản vẽ bố trí trần",
+                        "en": "Ceiling Layout Drawing"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "id": "t7",
+                    "title": {
+                        "jp": "単純トレース（下図有り、ノーチェック）",
+                        "vi": "Trace đơn giản (có bản vẽ gốc, không kiểm tra)",
+                        "en": "Simple Trace (with base drawing, no check)"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            ],
+            "content": {
+                "t1": {
+                    "heading": {
+                        "jp": "躯体図",
+                        "vi": "Bản vẽ kết cấu",
+                        "en": "Structural Drawing"
+                    },
+                    "body": [
+                        "1_image_1.png",
+                        "1_image_2.png",
+                        "1_image_3.png",
+                        "1_image_4.png",
+                        "1_image_5.png"
+                    ],
+                    "size": "A1",
+                    "price": "",
+                    "scale": {
+                        "jp": "１／５０　・　１／６０",
+                        "vi": "１／５０　・　１／６０",
+                        "en": "１／５０　・　１／６０"
+                    }
+                },
+                "t2": {
+                    "heading": {
+                        "jp": "平面詳細図",
+                        "vi": "Bản vẽ chi tiết mặt bằng",
+                        "en": "tetailed Floor Plan"
+                    },
+                    "body": [
+                        "2_image_6.png",
+                        "2_image_10.png",
+                        "2_image_11.png"
+                    ],
+                    "size": "A1",
+                    "price": "",
+                    "scale": {
+                        "jp": "１／５０　・　１／６０",
+                        "vi": "１／５０　・　１／６０",
+                        "en": "１／５０　・　１／６０"
+                    }
+                },
+                "t3": {
+                    "heading": {
+                       "jp": "展開図",
+                        "vi": "Bản vẽ triển khai",
+                        "en": "Elevation / Development Drawing"
+                    },
+                    "body": [],
+                    "size": "A1",
+                    "price": "",
+                    "scale": {
+                        "jp": "１／５０",
+                        "vi": "１／５０",
+                        "en": "１／５０"
+                    }
+                },
+                "t4": {
+                    "heading": {
+                        "jp": "外部タイル割付図",
+                        "vi": "Bản vẽ bố trí gạch ốp ngoài",
+                        "en": "Exterior Tile Layout Drawing"
+                    },
+                    "body":["4_image_9.png"],
+                    "size": "A1",
+                    "price": "",
+                    "scale": {
+                        "jp": "１／５０",
+                        "vi": "１／５０",
+                        "en": "１／５０"
+                    }
+                },
+                "t5": {
+                    "heading": {
+                       "jp": "内部タイル割付図",
+                        "vi": "Bản vẽ bố trí gạch nội thất",
+                        "en": "Interior Tile Layout Drawing"
+                    },
+                    "body": ["5_image_7.png"],
+                    "size": "A1",
+                    "price": "",
+                    "scale": {
+                        "jp": "１／５０　・　１／６０",
+                        "vi": "１／５０　・　１／６０",
+                        "en": "１／５０　・　１／６０"
+                    }
+                },
+                "t6": {
+                    "heading": {
+                       "jp": "天井割付図",
+                        "vi": "Bản vẽ bố trí trần",
+                        "en": "Ceiling Layout Drawing"
+                    },
+                    "body": ["6_image_8.png"],
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "１／５０　・　１／６０",
+                        "vi": "１／５０　・　１／６０",
+                        "en": "１／５０　・　１／６０"
+                    }
+                },
+                "t7": {
+                    "heading": {
+                        "jp": "単純トレース（下図有り、ノーチェック）",
+                        "vi": "Trace đơn giản (có bản vẽ gốc, không kiểm tra)",
+                        "en": "Simple Trace (with base drawing, no check)"
+                    },
+                    "body":[],
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "1時間あたり",
+                        "vi": "Mỗi giờ",
+                        "en": "Per hour"
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "name": {
+                "jp": "天井図",
+                "vi": "Bản Vẽ Trần",
+                "en": "Ceiling Drawings"
+            },
+            "img": "/img/service/ceiling/image_1.png",
+            "project": [
+                {
+                    "idP": 1,
+                    "nameP": {
+                        "jp": "天井プロジェクト 1",
+                        "vi": "Project Trần 1",
+                        "en": "Ceiling Project 1"
+                    },
+                    "imgP": "/img/project/san.jpg"
+                },
+                {
+                    "idP": 2,
+                    "nameP": {
+                        "jp": "天井プロジェクト 2",
+                        "vi": "Project Trần 2",
+                        "en": "Ceiling Project 2"
+                    },
+                    "imgP": "/img/project/san.jpg"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "t1",
+                    "title": {
+                        "jp": "天井図",
+                        "vi": "Bản vẽ Trần",
+                        "en": "Ceiling Drawings"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            ],
+            "content": {
+                "t1": {
+                    "heading": {
+                        "jp": "天井図",
+                        "vi": "Bản vẽ Trần",
+                        "en": "Ceiling Drawings"
+                    },
+                    "body": {
+                        "jp": "説明/画像/仕様（t1）のプレースホルダー…",
+                        "vi": "Mô tả/ảnh/đặc tả cho nhóm t1...",
+                        "en": "Description/images/specifications for group t1..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "name": {
+                "jp": "家具図面",
+                "vi": "Bản vẽ nội thất",
+                "en": "Furniture Drawing"
+            },
+            "img": "/img/service/furniture/image_2.png",
+            "project": [
+                {
+                    "idP": 1,
+                    "nameP": {
+                        "jp": "家具図面プロジェクト 1",
+                        "vi": "Project Nội Thất 1",
+                        "en": "Furniture Project 1"
+                    },
+                    "imgP": "/img/service/furniture/image_2.png"
+                },
+                {
+                    "idP": 2,
+                    "nameP": {
+                        "jp": "家具図面プロジェクト 2",
+                        "vi": "Project Nội Thất 2",
+                        "en": "Furniture Project 2"
+                    },
+                    "imgP": "/img/service/furniture/image_2.png"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "t1",
+                    "title": {
+                        "jp": "家具図面",
+                        "vi": "Bản vẽ nội thất",
+                        "en": "Furniture Drawing"
+                    },
+                    "subtitle": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            ],
+            "content": {
+                "t1": {
+                    "heading": {
+                        "jp": "家具図面",
+                        "vi": "Bản vẽ nội thất",
+                        "en": "Furniture Drawing"
+                    },
+                    "body": {
+                        "jp": "説明/画像/仕様（t1）のプレースホルダー…",
+                        "vi": "Mô tả/ảnh/đặc tả cho nhóm t1...",
+                        "en": "Description/images/specifications for group t1..."
+                    },
+                    "size": "",
+                    "price": "",
+                    "scale": {
+                        "jp": "",
+                        "vi": "",
+                        "en": ""
+                    }
+                }
+            }
+        }
+    ],
+    "showAll": [
+        {
+            "idP": 1,
+            "nameP": {
+                "jp": "床プロジェクト 1",
+                "vi": "Project Sàn 1",
+                "en": "Floor Project 1"
+            },
+            "imgP": "/img/project/san.jpg"
+        },
+        {
+            "idP": 2,
+            "nameP": {
+                "jp": "床プロジェクト 2",
+                "vi": "Project Sàn 2",
+                "en": "Floor Project 2"
+            },
+            "imgP": "/img/project/san.jpg"
+        },
+        {
+            "idP": 3,
+            "nameP": {
+                "jp": "アルミプロジェクト 1",
+                "vi": "Project Arumi 1",
+                "en": "Arumi Project 1"
+            },
+            "imgP": "/img/project/arumi.png"
+        },
+        {
+            "idP": 4,
+            "nameP": {
+                "jp": "アルミプロジェクト 2",
+                "vi": "Project Arumi 2",
+                "en": "Arumi Project 2"
+            },
+            "imgP": "/img/project/arumi.png"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1969f63b",
+            "name": {
+                "en": "Bản Vẽ Sàn 1",
+                "jp": "床図面 1",
+                "vi": "Bản Vẽ Sàn 1"
+            },
+            "img": [
+                "https://res.cloudinary.com/dsc0d352s/image/upload/v1757935486/img/project/elxepszuokyng7pfzspa.png"
+            ],
+            "serviceId": "24297324"
+        },
+        {
+            "id": "aa295dbb",
+            "name": {
+                "en": "床図面_5",
+                "jp": "床図面_5",
+                "vi": "床図面_5"
+            },
+            "img": [
+                "https://res.cloudinary.com/dsc0d352s/image/upload/v1757923371/img/project/bit1wriatil77l3z4pu5.png"
+            ],
+            "serviceId": "c5a0686f"
+        },
+        {
+            "id": "d7f8a91f",
+            "name": {
+                "en": "abcc123cc1",
+                "jp": "abcc123c1",
+                "vi": "abccc123c1"
+            },
+            "img": [
+                "https://res.cloudinary.com/dsc0d352s/image/upload/v1757918507/img/project/qlqrkwmqcpbsb7bxfpla.png",
+                "https://res.cloudinary.com/dsc0d352s/image/upload/v1757918509/img/project/o32gp6moybll2tlhrm15.png",
+                "https://res.cloudinary.com/dsc0d352s/image/upload/v1757918512/img/project/vyku07kpq3jngq45fyon.png"
+            ],
+            "serviceId": "24297324"
+        }
+    ]
+}

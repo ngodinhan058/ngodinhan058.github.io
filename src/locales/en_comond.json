@@ -1,0 +1,159 @@
+{
+    "i18n": "en",
+    "openingHours": {
+        "monSat": "Mon - Sat 8:00 - 17:30",
+        "sunday": "Sunday - CLOSED"
+    },
+    "contactNow": "Contact Now",
+    "ourServices": "Our Services",
+    "home": "Home",
+    "aboutHeader": "About Us",
+    "projects": "Projects",
+    "servicesHeader": "Services",
+    "contact": "Contact",
+    "readmore": "Read More",
+    "ourProjects": "Our Projects",
+    "showAll": "Show All",
+    "noData": "No data available",
+    "noDataContent": {
+        "1": "For security reasons, we don’t have any data to add yet.",
+        "2": "We apologize for the inconvenience."
+    },
+    "loadMore": "Load more",
+    "loading": "Loading",
+    "allLoaded": "All items loaded",
+    "aboutUs": {
+        "hero": {
+            "title": "About Us",
+            "home": "Home",
+            "titleSmall": "about"
+        },
+        "title": "What We Do",
+        "subtitle": "Right solutions for each phase of your project.",
+        "items": [
+            {
+                "title": "Architectural Shop Drawings",
+                "desc": "Clear, accurate, and buildable for the site.",
+                "tools": [
+                    "JWW",
+                    "AutoCAD"
+                ]
+            },
+            {
+                "title": "MEP Shop Drawings",
+                "desc": "Detailed coordination for piping, duct, and electrical.",
+                "tools": [
+                    "Cad Cape",
+                    "Tf@st"
+                ]
+            },
+            {
+                "title": "MEP Design Drawings",
+                "desc": "From sketches to production-ready drawings.",
+                "tools": [
+                    "JWW",
+                    "AutoCAD"
+                ]
+            },
+            {
+                "title": "Tracing / CAD Conversion",
+                "desc": "Digitize paper/images to CAD.",
+                "tools": [
+                    "JWW",
+                    "AutoCAD"
+                ]
+            },
+            {
+                "title": "Fabrication Drawings (UB/Kitchen/Fixtures)",
+                "desc": "Dimensional checks and fit-out verification.",
+                "tools": [
+                    "Dedicated tools"
+                ]
+            }
+        ],
+        "tools": {
+            "title": "Toolstack",
+            "items": [
+                "JWW",
+                "AutoCAD",
+                "Cad Cape",
+                "Tf@st"
+            ]
+        },
+        "quality": {
+            "title": "Quality Commitment",
+            "body": "We put reliability first: quality you can safely use, on-time delivery, optimized cost, and information security—backed by real-world experience and practical proposals."
+        },
+        "stats": {
+            "items": [
+                {
+                    "label": "Years of Experience",
+                    "value": "20+ years"
+                },
+                {
+                    "label": "Projects Delivered",
+                    "value": "100+"
+                },
+                {
+                    "label": "On-time Rate",
+                    "value": "99%"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Open to Partnerships",
+            "desc": "Tell us about your project or request a quote.",
+            "button": "Contact Us"
+        },
+        "content": {
+            "content_1": "We are pleased to extend our congratulations on your company’s continued prosperity. We would also like to express our sincere gratitude for your special patronage.",
+            "content_2": "Our company, M&E Akebono Co., Ltd, is mainly engaged in the preparation of construction shop drawings, equipment design, construction, and coordination drawings in Japan.",
+            "content_3": "Our staff consists of proactive and creative professionals in the fields of architecture and equipment. Based on over 20 years of practical experience, we create 'drawings that can be used on-site'.",
+            "content_4": "We provide and deliver these drawings. At present, we are looking for partners, so please feel free to contact us if your company has any projects. We would be delighted to become your collaborator.",
+            "content_5": "Depending on the type of work, we can use different software for drawing production. Please refer to the following:\n・ Architectural shop drawings (CAD Soft … JWW, AutoCAD)\n・ Equipment shop drawings (CAD Soft … Cad Cape, Tf@st, NYK Systems Rebro 2011)\n・ Equipment design drawings (CAD Soft … JWW, AutoCAD) --> created from sketch drawings\n・ Drawing tracing (CAD Soft … JWW, AutoCAD)\n・ Fabrication drawings for unit baths, kitchens, and toilets (CAD Soft … other software)\n・ Equipment 3D drawings (BIM compatible) (CAD Soft … NYK Systems Rebro)"
+        }
+    },
+    "contactUs": {
+        "hero": {
+            "title": "Contact",
+            "home": "Home",
+            "titleSmall": "contact"
+        },
+        "getInTouch": "Get In Touch",
+        "form": {
+            "title": "Title",
+            "message": "Enter Message",
+            "name": "Enter your name",
+            "email": "Enter email address",
+            "subject": "Enter Subject",
+            "send": "Send",
+            "sentOk": "Sent successfully!",
+            "sentErr": "Sending failed. Please try again!"
+        },
+        "info": {
+            "company": "AKEBONO M&E Co., Ltd.",
+            "city": "Ho Chi Minh City",
+            "name": "Name: Ngo Chi Hai",
+            "note": "Send us your query anytime!"
+        }
+    },
+    "projectUs": {
+        "hero": {
+            "title": "Projects",
+            "home": "Home",
+            "titleSmall": "projects"
+        }
+    },
+    "servicesUs": {
+        "hero": {
+            "title": "Services",
+            "home": "Home",
+            "titleSmall": "services"
+        }
+    },
+    "getQuote": "Get Detailed Quote",
+    "quickLinks": "Quick Links",
+    "phone": "Phone: +84 908 863 459",
+    "cell": "Cell: +84 908 863 459",
+    "footerContent": "We have a proven track record and extensive experience in many construction projects with Shimizu Corporation in Japan, giving our clients peace of mind and confidence when placing orders with us."
+}

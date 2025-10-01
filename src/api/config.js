@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://web.akebono.qzz.io/api';
