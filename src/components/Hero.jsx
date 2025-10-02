@@ -5,8 +5,8 @@ const Hero = ({ title, home, titleSmall }) => {
     const { t } = useTranslation();
 
     const VIDEO_URLS = [
-        "../../video/autocad_jww.mp4",
-        "../../video/jww_autocad.mp4"
+        "https://res.cloudinary.com/dsc0d352s/video/upload/v1759310991/auto_jww_kqqgwi.mp4",
+        "https://res.cloudinary.com/dsc0d352s/video/upload/v1759311345/jww_auto_vu9vfd.mp4"
     ];
     const [videoUrl] = useState(
         VIDEO_URLS[Math.floor(Math.random() * VIDEO_URLS.length)]

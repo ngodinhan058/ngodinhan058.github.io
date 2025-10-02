@@ -17,7 +17,7 @@ export default function LoginPage() {
     const [message, setMessage] = useState(null);
 
 
-    const VIDEO_URLS = "video/jww_autocad.mp4";
+    const VIDEO_URLS = "https://res.cloudinary.com/dsc0d352s/video/upload/v1759311345/jww_auto_vu9vfd.mp4";
     const navigate = useNavigate();
 
     const onSubmit = async (e) => {
@@ -64,7 +64,7 @@ export default function LoginPage() {
             {loading ? <Loading /> : <></>}
 
             <div className="login-page">
-                <video className="bg-video" src={VIDEO_URLS} autoPlay loop muted playsInline />
+                <video className="bg-video" src={VIDEO_URLS} autoPlay loop muted playsInline poster="/img/banner/image.png"/>
                 <div className="center">
                     <div className="card glass">
                         <h4><i className="bi bi-lock"></i> Login</h4>
