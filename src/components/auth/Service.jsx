@@ -40,6 +40,8 @@ const Service = ({ id, name, img, onEditChange, onEditData, onOpen, onService, o
         })
             .then((response) => {
                 const data = response.status;
+                console.log(data);
+                
                 if (data == 200 || 201) {
                     handleResult("ok", "Xóa Thành Công")
                 } else {
@@ -48,6 +50,7 @@ const Service = ({ id, name, img, onEditChange, onEditData, onOpen, onService, o
                 }
             })
             .catch((error) => {
+                handleResult("err", "Xóa Thất Bại, Dự án vẫn còn tồn tại");
                 console.error('Error fetching data:', error);
 
             })

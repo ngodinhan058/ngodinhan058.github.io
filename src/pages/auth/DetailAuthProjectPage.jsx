@@ -130,7 +130,7 @@ export default function DetailPage() {
                     Authorization: `Bearer ${token}`,
                 },
             });
-            handleResult("ok", "Thêm thành công");
+            handleResult("ok", "Sửa thành công");
             navigate(-1);
             closeProject();
         } catch (err) {
@@ -156,7 +156,9 @@ export default function DetailPage() {
                 if (data == 200 || 201) {
                     setLoading(false);
                     handleResult("ok", "Xóa Thành Công")
-                    navigate(-1)
+                    setTimeout(() => {
+                        navigate(-1)
+                    }, 2000);
                 } else {
                     handleResult("err", "Xóa Thất Bại, Vui Lòng Thử Lại");
                 }

@@ -36,7 +36,7 @@ function ProjectList({ showAll = [], t, isMobile, admin = false, dataService }) 
                 },
             });
         } else {
-            navigate(`/detailProject/${name}`, {
+            navigate(`/detailProject/${name.jp}`, {
                 state: {
                     id,
                     name,

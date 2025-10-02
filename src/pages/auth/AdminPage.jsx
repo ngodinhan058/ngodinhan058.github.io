@@ -646,7 +646,7 @@ export default function AdminPage() {
                         </label>
 
                         <span className="flabel">
-                            img (file) <b>{editSetProject ? "" : "*"}</b>
+                            img (file) <b>*</b> &ensp;Lưu ý: Tấm đầu tiên sẽ mặc định là tấm giới thiệu
                         </span>
                         <div
                             className={`field-form wide ${invalidProject("img") ? "is-invalid" : ""
@@ -696,7 +696,7 @@ export default function AdminPage() {
                                 </div>
                             </label>
                         </div>
-                        <small className="hint">Hỗ trợ ảnh (jpg, png, webp…)</small>
+                        <small className="hint">Hỗ trợ ảnh (jpg, png, jpeg,...)</small>
                     </div>
 
                     {error && <div className="alert error">⚠️ {String(error)}</div>}

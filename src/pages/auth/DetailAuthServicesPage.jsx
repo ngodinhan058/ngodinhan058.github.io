@@ -28,6 +28,7 @@ export default function DetailPage() {
     const [dataCategories, setDataCategories] = useState([]);
     const [dataContent, setDataContent] = useState({});
     const [selectedId, setSelectedId] = useState();
+    const [selectedTitle, setSelectedTitle] = useState();
     useEffect(() => {
         getCategories()
         getContent()
@@ -107,6 +108,10 @@ export default function DetailPage() {
         dlgRef.current?.showModal();
         setOpen(true);
         setEditSet(false);
+        setValues({
+            title: { jp: "", en: "" },
+            subtitle: { jp: "", en: "" },
+        })
 
     };
     const showEdit = (idCate, data) => {
@@ -207,8 +212,9 @@ export default function DetailPage() {
             });
         }
     }, [editSet, editDataSet]);
-    const handleClick = (id) => {
+    const handleClick = (id, title) => {
         setSelectedId(id)
+        setSelectedTitle(title)
         window.scrollTo(0, 0);
     };
     const deleteCate = (idCate) => {
@@ -301,12 +307,13 @@ export default function DetailPage() {
             setExistingImgs(selected.body)
         } else {
             setValuesContent({
-                heading: { jp: "", vi: "", en: "" },
+                heading: { jp: selectedTitle.jp, vi: selectedTitle.en, en: selectedTitle.en },
                 size: "",
                 price: "",
                 scale: { jp: "", vi: "", en: "" },
             });
             setExistingImgs([])
+            setFiles([])
         }
     };
     const closeContent = () => { dlgRefContent.current?.close(); setOpenContent(false); };
@@ -370,15 +377,14 @@ export default function DetailPage() {
             );
             handleResult("ok", "Thành Công")
             closeContent();
+            setLoading(false);
             getContent();
         } catch (err) {
             console.error("Error:", err.response?.data || err.message);
             setError(err.response?.data?.message || "Có lỗi xảy ra khi gửi dữ liệu.");
             handleResult("err", "Thất Bại, Vui Lòng Thử Lại")
-
-        } finally {
             setLoading(false);
-        }
+        } 
     };
 
 
@@ -397,6 +403,7 @@ export default function DetailPage() {
                                     <button
                                         type="button"
                                         className={`picker-item w-100 text-start active`}
+                                        style={{ cursor: 'pointer' }}
                                         onClick={show}
                                     >
                                         <span className="d-block fw-semibold">+</span>
@@ -407,7 +414,7 @@ export default function DetailPage() {
                                                 <button
                                                     type="button"
                                                     className={`picker-item w-100 text-start ${selectedId === c.id ? "active" : ""}`}
-                                                    onClick={() => handleClick(c.id)}
+                                                    onClick={() => handleClick(c.id, c.title)}
                                                     style={{ position: 'relative' }}
                                                 >
                                                     <span className="d-block fw-semibold">{c.title[lang]}</span>
@@ -469,7 +476,7 @@ export default function DetailPage() {
 
                                     <div className="align-items-center justify-content-between mb-3">
                                         {selected?.body && selected?.body.length > 0 ? selected?.body.map((src, index) => (
-                                            <div key={index} className="position-relative mb-5">
+                                            <div key={index} className="position-relative mb-5" style={{ display: 'flex', justifyContent: 'center',  }}>
                                                 <div
                                                     className="position-absolute bg-dark text-white px-2 py-1 small"
                                                     style={{ opacity: 0.8, borderTopRightRadius: "5px", right: 0, zIndex: 9 }}
@@ -521,7 +528,19 @@ export default function DetailPage() {
                             />
                             <small className="hint">Tiêu đề tiếng Nhật</small>
                         </label>
-
+                        <label className="field-form">
+                            <span className="flabel">Title (EN) <b>*</b></span>
+                            <input
+                                className={inputClass("title.en")}
+                                name="title.en"
+                                value={values.title.en}
+                                onChange={onChange}
+                                onBlur={() => setTouched((t) => ({ ...t, ["title.en"]: true }))}
+                                placeholder=" "
+                                type="text"
+                            />
+                            <small className="hint">Tiêu đề tiếng Anh</small>
+                        </label>
                         <label className="field-form">
                             <span className="flabel">Subtitle (JP) <b>*</b></span>
                             <input
@@ -537,19 +556,7 @@ export default function DetailPage() {
                         </label>
 
 
-                        <label className="field-form">
-                            <span className="flabel">Title (EN) <b>*</b></span>
-                            <input
-                                className={inputClass("title.en")}
-                                name="title.en"
-                                value={values.title.en}
-                                onChange={onChange}
-                                onBlur={() => setTouched((t) => ({ ...t, ["title.en"]: true }))}
-                                placeholder=" "
-                                type="text"
-                            />
-                            <small className="hint">Tiêu đề tiếng Anh</small>
-                        </label>
+
 
 
                         <label className="field-form">
@@ -598,6 +605,7 @@ export default function DetailPage() {
                                 onBlur={() => setTouchedContent((t) => ({ ...t, "heading.jp": true }))}
                                 type="text"
                                 placeholder=" "
+                                disabled
                             />
                         </label>
 
@@ -611,6 +619,7 @@ export default function DetailPage() {
                                 onBlur={() => setTouchedContent((t) => ({ ...t, "heading.en": true }))}
                                 type="text"
                                 placeholder=" "
+                                disabled
                             />
                         </label>
 

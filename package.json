@@ -28,7 +28,7 @@
     "swiper": "^11.2.10",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ngodinhan058.github.io/",
+  "homepage": "https://akebono.qzz.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
